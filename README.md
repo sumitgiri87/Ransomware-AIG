@@ -11,7 +11,7 @@ This project is for **educational purposes only** and aims to demonstrate cybers
 ## Task 1: Responding to a Zero-Day Vulnerability
 The **Cybersecurity & Infrastructure Security Agency (CISA)** has recently published advisories regarding:
 - A critical vulnerability in **[Apache Log4j](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a)**, widely used logging software.
-- The increasing professionalization of **ransomware attacks**, posing risks to enterprises like AIG.
+- The increasing professionalization of **[ransomware attacks](https://www.cisa.gov/news/2022/02/09/cisa-fbi-nsa-and-international-partners-issue-advisory-ransomware-trends-2021)**, posing risks to enterprises like AIG.
 
 ### Task Overview
 - Research the **Log4j zero-day vulnerability** using CISA advisories.
