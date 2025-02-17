@@ -1,13 +1,9 @@
-This is the super sensitive, confidential document that was affected by the ransomware. Congratulations on the bruteforce!
-
-You can paste your bruteforce script in the box below:
-
 '''
 Forage AIG Cybersecurity Program
 Bruteforce Password Cracking Template for Encrypted Zip Files
 
 This script demonstrates a basic brute-force attack to crack the password of an encrypted zip file.
-It uses a wordlist (in this case, 'rockyou.txt') to test each potential pass-word until a successful extraction is made.
+It uses a wordlist (in this case, 'rockyou.txt') to test each potential password until a successful extraction is made.
 If the correct password is found, the zip file is extracted, and the process stops. 
 
 The script also includes error handling for common cases such as corrupted zip files, missing files, and incorrect passwords.
@@ -23,7 +19,7 @@ from zipfile import ZipFile, BadZipFile
 # Function to attempt to extract the zip file with a given password
 def attempt_extract(zf_handle, password):
     """
-    Attempts to extract the contents of the zip file using the provided pass-word.
+    Attempts to extract the contents of the zip file using the provided password.
 
     Args:
         zf_handle (ZipFile): The open ZipFile object.
@@ -54,8 +50,8 @@ def main():
         1. Opens the zip file (enc.zip) for extraction.
         2. Loads and reads passwords from a wordlist file (rockyou.txt).
         3. Attempts to extract the zip file with each password.
-        4. Stops as soon as the correct password is found and the file is ex-tracted.
-        5. Prints relevant information during the process (e.g., found pass-word, extraction success/failure).
+        4. Stops as soon as the correct password is found and the file is extracted.
+        5. Prints relevant information during the process (e.g., found password, extraction success/failure).
     """
     print("[+] Beginning brute-force attack on encrypted zip file...")
     
