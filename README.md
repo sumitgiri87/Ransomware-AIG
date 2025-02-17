@@ -110,7 +110,10 @@ This project is for **educational purposes only** and demonstrates problem-solvi
 
 ### Example Screenshot:
 Here is a screenshot showing the output of the `bruteforce.py` script when it successfully cracks the password for `enc.zip`:
-****![Screenshot of Code Output](https://github.com/user-attachments/assets/c863ceea-9305-483e-8b2b-87878104039f) ****
+
+![Screenshot of Code Output](https://github.com/user-attachments/assets/c863ceea-9305-483e-8b2b-87878104039f) 
+
+![image](https://github.com/user-attachments/assets/53d5dcc2-bd22-4e91-9c48-63b2773ccd62)
 
 
 
