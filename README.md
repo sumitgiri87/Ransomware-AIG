@@ -48,7 +48,7 @@ Log4j is a widely used open-source Java library for logging application activity
 
 - **[CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) (Log4Shell)**  
 - **[CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046)**  
-- **CVE-2021-45105**  
+- **[CVE-2021-45105](https://nvd.nist.gov/vuln/detail/CVE-2021-45105)**  
 
 These vulnerabilities allow unauthenticated remote code execution (RCE) by exploiting the Java Naming and Directory Interface (JNDI), posing a critical security risk. Attackers could leverage this flaw to gain unauthorized access, deploy malware (including ransomware), exfiltrate sensitive data, or disrupt services.  
 
