@@ -89,8 +89,29 @@ _AIG Cyber & Information Security Team_
 
 
 ## Task 2: Bypassing Ransomware
-- Explores **bruteforcing** techniques.
-- Develops a Python script to bruteforce the decryption key of an encrypted file to bypass ransom payments.
 
-This project is for **educational purposes only** and aims to demonstrate cybersecurity problem-solving skills.
+In this task, I demonstrate the process of bypassing ransomware encryption using brute force techniques to recover an encrypted file without paying a ransom. This project aims to illustrate the practical application of password cracking methods in the context of cybersecurity.
+
+### Objectives:
+- **Brute-force attack**: The task explores brute-forcing techniques to decrypt files encrypted by ransomware, focusing on bypassing encryption without relying on the original decryption key.
+- **Python implementation**: I developed a Python script (`bruteforce.py`) that attempts to crack the password used to encrypt a zip file by leveraging a popular wordlist (`rockyou.txt`).
+- **Decryption bypass**: The goal is to recover the encrypted contents of the file (`enc.zip`) by identifying the correct password and decrypting it, demonstrating the potential vulnerability of poorly secured encrypted files.
+
+### Resources:
+- **enc.zip**: An encrypted zip file, which contains data that is protected by a password. The zip file is located in the `/resources` subfolder.
+- **rockyou.txt**: A wordlist file used in the brute-force attack, which contains a vast collection of common passwords. It is also placed in the `/resources` subfolder.
+- **bruteforce.py**: The Python script located in the same folder that implements the brute-force method for cracking the password. This script reads the passwords from `rockyou.txt` and attempts to extract the contents of `enc.zip` one password at a time.
+
+### Process:
+The script works by opening the `enc.zip` file and trying every password in `rockyou.txt`. If the correct password is found, the zip file is extracted, and the contents are revealed. If the password is not found within the wordlist, a message is displayed indicating the failure.
+
+### Educational Purpose:
+This project is for **educational purposes only** and demonstrates problem-solving skills in cybersecurity. It is important to note that such techniques should only be used with explicit permission and in legal contexts.
+
+### Example Screenshot:
+Here is a screenshot showing the output of the `bruteforce.py` script when it successfully cracks the password for `enc.zip`:
+****![Screenshot of Code Output](https://github.com/user-attachments/assets/c863ceea-9305-483e-8b2b-87878104039f) ****
+
+
+
 
