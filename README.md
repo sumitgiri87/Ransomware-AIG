@@ -72,7 +72,6 @@ An attacker may exploit this vulnerability to remotely access and compromise the
 
 #### **3. Threat Hunting and Incident Response**  
 - Monitor for signs of exploitation or unauthorized access.  
-- Investigate logs and system behavior for indicators of compromise (IoCs).  
 - If any IoCs are detected, escalate for incident response immediately.  
 
 ### **Next Steps**  
